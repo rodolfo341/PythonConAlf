@@ -1,6 +1,5 @@
-"""
-    Ejercicios de Tipos de Datos Simples
-"""
+
+"""  Ejercicios de Tipos de Datos Simples   """
 
 # Ejercicio 1
 # Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo!.
@@ -72,11 +71,20 @@ print(f"el resto de {num1} % {num2} = {resto}")"""
 """inversion = float(input("inversion: "))
 interesAnual = float(input("Interes anual: "))
 aniosDeInversion = int(input("Años de inversion: "))
-A = inversion * ( 1 + interesAnual / 12 ) ** ( 12 * aniosDeInversion )
-print(f"Capital obtenido = {A}")"""
+A = inversion * ( 1 + interesAnual / 100 ) ** ( aniosDeInversion )
+print(f"Capital obtenido = {round(A)}")"""
 
-# 
-
-
-
-
+# Ejercicio 10
+# Una juguetería tiene mucho éxito en dos de sus productos: 
+#               .- payasos y 
+#               .- muñecas. 
+# Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete 
+# así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. 
+# Cada payaso pesa 112 g y cada muñeca 75 g. Escribir un programa que lea el número de payasos y 
+# muñecas vendidos en el último pedido y calcule el peso total del paquete que será enviado.
+pesoPayaso = 112
+pesoMuñeca = 75
+payasos = int(input("cantidad de payasos: "))
+muñecas = int(input("cantidad de muñecas: "))
+pesoTotal = pesoPayaso * payasos + pesoMuñeca * muñecas
+print(f"el peso total es de: {pesoTotal}")

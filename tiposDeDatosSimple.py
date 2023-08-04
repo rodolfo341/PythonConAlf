@@ -55,12 +55,12 @@ print(f"Tu índice de masa corporal es {IMC}")"""
 # Ejercicio 8
 # Escribir un programa que pida al usuario dos números enteros
 # muestre por pantalla el cociente y el resto.
-num1 = float(input("ingrese num1: "))
+"""num1 = float(input("ingrese num1: "))
 num2 = float(input("ingrese num2: "))
 cociente = round(num1 / num2, 2)
 resto = int(num1 % num2)
 print(f"cociente de {num1} / {num2} = {cociente}")
-print(f"el resto de {num1} % {num2} = {resto}")
+print(f"el resto de {num1} % {num2} = {resto}")"""
 
 # Ejercicio 9
 # Escribir un programa que pregunte al usuario una:
@@ -69,12 +69,13 @@ print(f"el resto de {num1} % {num2} = {resto}")
 #           .- el número de años, y 
 # 
 # muestre por pantalla el capital obtenido en la inversión. 
-inversion = float(input("inversion: "))
+"""inversion = float(input("inversion: "))
 interesAnual = float(input("Interes anual: "))
 aniosDeInversion = int(input("Años de inversion: "))
 A = inversion * ( 1 + interesAnual / 12 ) ** ( 12 * aniosDeInversion )
-print(f"Capital obtenido = {A}")
+print(f"Capital obtenido = {A}")"""
 
+# 
 
 
 

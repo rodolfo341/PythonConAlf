@@ -47,13 +47,20 @@ print(f"La suma de los {n} numeros positivos es: {suma}")"""
 # calcule el índice de masa corporal y lo almacene en una variable muestre por pantalla la frase 
 # Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal 
 # calculado redondeado con dos decimales.
-
-peso = float(input("peso: "))
+"""peso = float(input("peso: "))
 estatura = float(input("estatura: "))
-IMC = peso / (estatura) ** 2
-print(f"Tu índice de masa corporal es {IMC}")
+IMC = round(peso / (estatura) ** 2, 2)
+print(f"Tu índice de masa corporal es {IMC}")"""
 
-
+# Ejercicio 8
+# Escribir un programa que pida al usuario dos números enteros
+# muestre por pantalla el cociente y el resto.
+num1 = float(input("ingrese num1: "))
+num2 = float(input("ingrese num2: "))
+cociente = round(num1 / num2, 2)
+resto = int(num1 % num2)
+print(f"cociente de {num1} / {num2} = {cociente}")
+print(f"el resto de {num1} % {num2} = {resto}")
 
 
 

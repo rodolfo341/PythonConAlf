@@ -62,6 +62,20 @@ resto = int(num1 % num2)
 print(f"cociente de {num1} / {num2} = {cociente}")
 print(f"el resto de {num1} % {num2} = {resto}")
 
+# Ejercicio 9
+# Escribir un programa que pregunte al usuario una:
+#           .- cantidad a invertir
+#           .- el interés anual y 
+#           .- el número de años, y 
+# 
+# muestre por pantalla el capital obtenido en la inversión. 
+inversion = float(input("inversion: "))
+interesAnual = float(input("Interes anual: "))
+aniosDeInversion = int(input("Años de inversion: "))
+A = inversion * ( 1 + interesAnual / 12 ) ** ( 12 * aniosDeInversion )
+print(f"Capital obtenido = {A}")
+
+
 
 
 

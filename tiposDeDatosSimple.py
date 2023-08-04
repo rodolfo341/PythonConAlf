@@ -28,8 +28,8 @@ print(f"( ( 3 + 2 ) / ( 2 - 5 ) ) ** 2 = {resultado}"""
 # Ejercicio 5
 # Escribir un programa que pregunte al usuario por el número de horas trabajadas y 
 # el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
-horas = input("Hoaras trabajadas: ")
-valorHora = input("Valor por hora: ")
+horas = int(input("Hoaras trabajadas: "))
+valorHora = int(input("Valor por hora: "))
 total = horas * valorHora
 print(f"tu sueldo es: {total}")
 

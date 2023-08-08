@@ -97,3 +97,11 @@ print(f"el peso total es de: {pesoTotal}")"""
 # introducida por el usuario. Después el programa debe calcular y mostrar por pantalla 
 # la cantidad de ahorros tras el primer, segundo y tercer años. 
 # Redondear cada cantidad a dos decimales.
+dinero = int(input("dinero: "))
+primer = dinero * 1.04
+segundo = primer * 1.04
+tercero = segundo * 1.04
+
+print(f"Ahorro primer año : {primer}")
+print(f"Ahorro segundo año: {segundo}")
+print(f"Ahorro tercer año : {tercero}")

@@ -97,11 +97,18 @@ print(f"el peso total es de: {pesoTotal}")"""
 # introducida por el usuario. Después el programa debe calcular y mostrar por pantalla 
 # la cantidad de ahorros tras el primer, segundo y tercer años. 
 # Redondear cada cantidad a dos decimales.
-dinero = int(input("dinero: "))
-primer = dinero * 1.04
-segundo = primer * 1.04
+dinero  = int(input("dinero: "))
+primer  = dinero  * 1.04
+segundo = primer  * 1.04
 tercero = segundo * 1.04
 
-print(f"Ahorro primer año : {primer}")
+print(f"Ahorro primer año : {primer }")
 print(f"Ahorro segundo año: {segundo}")
 print(f"Ahorro tercer año : {tercero}")
+
+# Ejercicio 12
+# Una panadería vende barras de pan a 3.49€ cada una. 
+# El pan que no es el día tiene un descuento del 60%. 
+# Escribir un programa que comience leyendo el número de barras vendidas que no son del día. 
+# Después el programa debe mostrar el precio habitual de una barra de pan, 
+# el descuento que se le hace por no ser fresca y el coste final total.

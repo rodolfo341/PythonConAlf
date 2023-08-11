@@ -21,8 +21,12 @@ for i in range(numeroEntero):
 nombre = input("Ingrese nombre completo: ")
 print(f"nombre: {nombre}")
 nombreMinusculas = nombre.lower()
-print(f"nombre: {nombreMinusculas}")
+print(f"nombre todo en minusculas    : {nombreMinusculas}")
 nombreMayusculas = nombre.upper()
-print(f"nombre: {nombreMayusculas}")
+print(f"nombre todo en mayusculas    : {nombreMayusculas}")
+nombreCapital = nombre.capitalize()
+print(f"nombre capital primer nombre : {nombreCapital}")
+nombreTitle = nombre.title()
+print(f"nombre capital cada palabra  : {nombreTitle}")
 
 

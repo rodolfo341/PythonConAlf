@@ -18,4 +18,11 @@ for i in range(numeroEntero):
 # otra solo con la primera letra del nombre y de los apellidos en mayúscula. 
 # El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.
 
+nombre = input("Ingrese nombre completo: ")
+print(f"nombre: {nombre}")
+nombreMinusculas = nombre.lower()
+print(f"nombre: {nombreMinusculas}")
+nombreMayusculas = nombre.upper()
+print(f"nombre: {nombreMayusculas}")
+
 

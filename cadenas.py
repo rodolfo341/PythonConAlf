@@ -36,5 +36,6 @@ print(f"nombre capital cada palabra  : {nombreTitle}")
 # <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y 
 # <n> es el número de letras que tienen el nombre.
 
-
+nombre = input("Nombre: ")
+print(f"El nombre {nombre} tiene {len{nombre} letras}")
 

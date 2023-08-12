@@ -17,7 +17,7 @@ for i in range(numeroEntero):
 # otra con todas las letras mayúsculas y 
 # otra solo con la primera letra del nombre y de los apellidos en mayúscula. 
 # El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.
-
+"""
 nombre = input("Ingrese nombre completo: ")
 print(f"nombre: {nombre}")
 nombreMinusculas = nombre.lower()
@@ -28,5 +28,13 @@ nombreCapital = nombre.capitalize()
 print(f"nombre capital primer nombre : {nombreCapital}")
 nombreTitle = nombre.title()
 print(f"nombre capital cada palabra  : {nombreTitle}")
+"""
+
+# Ejercicio 3
+# Escribir un programa que pregunte el nombre del usuario en la consola y 
+# después de que el usuario lo introduzca muestre por pantalla 
+# <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y 
+# <n> es el número de letras que tienen el nombre.
+
 
 

@@ -29,38 +29,23 @@ print(f"nombre capital primer nombre : {nombreCapital}")
 nombreTitle = nombre.title()
 print(f"nombre capital cada palabra  : {nombreTitle}")
 """
-<<<<<<< HEAD
 
 # Ejercicio 3
 # Escribir un programa que pregunte el nombre del usuario en la consola y 
 # después de que el usuario lo introduzca muestre por pantalla 
 # <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y 
 # <n> es el número de letras que tienen el nombre.
-
 """
 nombre = input("Ingrese nombre: ")
 print(f"El nombre {nombre} tiene {len(nombre)}")
 """
-=======
->>>>>>> 4bc8b74e0e71605188c55f3f8e665a8cc93519ac
 
-# Ejercicio 3
-# Escribir un programa que pregunte el nombre del usuario en la consola y 
-# después de que el usuario lo introduzca muestre por pantalla 
-# <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y 
-# <n> es el número de letras que tienen el nombre.
-"""
-nombre = input("Nombre: ")
-nombre = nombre.upper()
-print(f"El nombre {nombre} tiene {len(nombre)} letras")
-"""
 # Ejercicio 4
-# Los teléfonos de una empresa tienen el siguiente formato prefijo-número-extension 
-# donde el prefijo es el código del país +34, y 
+# Los teléfonos de una empresa tienen el siguiente formato 
+# prefijo-número-extension donde 
+# el prefijo es el código del país +34, y 
 # la extensión tiene dos dígitos (por ejemplo +34-913724710-56). 
-# Escribir un programa que pregunte por un número de teléfono con este formato y 
-# muestre por pantalla el número de teléfono sin el prefijo y la extensión.
-numero = input("ingrese telefono")
-recorteInicio = numero[4:]
-recorteFinal = recorteInicio[:-3]
-print(recorteFinal)
+# Escribir un programa que pregunte por un número de teléfono con este formato 
+# y muestre por pantalla el número de teléfono sin el prefijo y la extensión.
+
+

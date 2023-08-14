@@ -49,3 +49,4 @@ print(f"El nombre {nombre} tiene {len(nombre)}")
 # y muestre por pantalla el número de teléfono sin el prefijo y la extensión.
 
 
+

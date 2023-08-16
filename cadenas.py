@@ -48,6 +48,8 @@ print(f"El nombre {nombre} tiene {len(nombre)}")
 # Escribir un programa que pregunte por un número de teléfono con este formato 
 # y muestre por pantalla el número de teléfono sin el prefijo y la extensión.
 
+numero = input("Numero de telefono en formato +xx-xxxxxxxxx-xx: ")
+
 
 
 
